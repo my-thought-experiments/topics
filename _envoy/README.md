@@ -6,8 +6,8 @@
 
 Assuming below items are aleady installed, up and running on your machine.
 
--[x] Node.js v18 or above.
--[x] HomeBrew
+- [x] Node.js v18 or above.
+- [x] HomeBrew
 
 ### Install Envoy
 
