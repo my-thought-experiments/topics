@@ -1,7 +1,5 @@
 # Envoy
 
-## References
-
 ## Installation
 
 Assuming below items are aleady installed, up and running on your machine.
@@ -54,4 +52,9 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3
 | `cluster.yaml` | Showcase how to setup single cluster and load balance |
 | `clusters.yaml` | Showcase how to setup multiple clusters and load balance |
 | `admin.yaml` | Showcase how to setup block admin routes |
-| `tls_http2.yaml` | Showcase how to setup TLS 1.2 and HTTP/2 |
+| `tls_http2.yaml` | Showcase how to enable TLS 1.2 and HTTP/2. Disable TLS 1/1.1 |
+
+## References
+
+* [Intro: Envoy - Matt Klein & Constance Caramanolis, Lyft](https://www.youtube.com/watch?v=P719qI2h2yY&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D)
+* [Envoy Internals Deep Dive - Matt Klein, Lyft](https://www.youtube.com/watch?v=gQF23Vw0keg&ab_channel=CNCF%5BCloudNativeComputingFoundation%5D)
