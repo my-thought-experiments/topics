@@ -2,6 +2,7 @@
 
 - [x] Envoy
 - [x] Wireshark
+- [x] Protocols
 - [ ] Docker
 - [ ] Minikube, ArgoCD, Kubernetes, Helm
 - [ ] Sidecar
