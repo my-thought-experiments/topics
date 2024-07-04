@@ -3,7 +3,9 @@ import fs from 'node:fs';
 
 const options = {
   key: fs.readFileSync('private-key.pem'),
-  cert: fs.readFileSync('public-cert.pem')
+  cert: fs.readFileSync('public-cert.pem'),
+  minVersion: 'TLSv1.2',
+  maxVersion: 'TLSv1.3'
 };
 
 const server = https.createServer(options, (req, res) => {
